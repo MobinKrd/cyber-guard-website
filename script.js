@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const navItems = document.querySelectorAll("nav ul a");
   navItems.forEach((link) => {
-    // ئەگەر لینکی مینیۆکە هەمان ناوی پەڕەکەی ئێستای هەبوو، ڕەنگەکەی شین بکە
+    
     if (link.getAttribute("href") === currentPage) {
       link.style.color = "var(--primary)";
     }
